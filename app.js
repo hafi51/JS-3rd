@@ -912,3 +912,24 @@ function withdraw() {
     document.write("you will have " + hndrds + " hundred notes " + fifty + " fifty notes " + tens + " ten notes")
 }
 withdraw()
+    //43-48
+function popup() {
+    alert("Facebook opened")
+}
+//
+function iphone() {
+    alert("thanks for purchasing")
+}
+//
+function del(row) {
+    document.getElementById("table").deleteRow(row)
+}
+//
+function imgchange(img) {
+    img.src = 'samsung.jpg'
+}
+
+function imgback(img) {
+    img.src = 'iphone.jpg'
+}
+//
