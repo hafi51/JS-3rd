@@ -940,3 +940,17 @@ function increase() {
 function decrease() {
     document.getElementById('increase').innerHTML--
 }
+//49-52
+function display() {
+    name = document.getElementById('name').value
+    email = document.getElementById('email').value
+    number = document.getElementById('number').value
+
+    document.getElementById('data').innerHTML = "Name: " + name + "<br>" + "Email: " + email + "<br>" + "Number: " + number
+
+}
+//
+function read() {
+    document.getElementById('para').style.overflow = "visible"
+    document.getElementById('para').style.height = "350px"
+}
